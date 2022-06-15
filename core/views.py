@@ -15,14 +15,7 @@ from .models import Audio
 def audio_speed(request):
     serializer = AudioSerializer(data=request.data)
     if serializer.is_valid():
-        audio_ins = serializer.save()
-        audio = Audio.objects.get(id=audio_ins.id)
-        print("audio is getting processed")
-        print(audio.audio.name)
-        print(audio.audio.path)
-        speedex = speed_audio(audio.audio.name.replace("/", ""), audio.audio, request.data['speed'] )
-        print("audio processed")
-        serializer.save(audio_speed = speedex)
+        serializer.save()
         return Response(serializer.data, status=201)
     return Response(serializer.errors, status=400)
 
