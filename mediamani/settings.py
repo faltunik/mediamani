@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # custome app
-    'core'
+    'core',
 
     # celery result
     'django_celery_results',
