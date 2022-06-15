@@ -6,6 +6,6 @@ Some Ideas
 1. Speed Changer (Both Audio and Video)
 2. Audio_Extractor(from Image)
 3. GIF Creator
-4. Cartoonification of Image and Audio
+4. Cartoonification of Image and Video
 5. Download Youtube Video in mp3 format
 6. Many More....
