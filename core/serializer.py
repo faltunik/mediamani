@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Audio
 
-class AudioSerializer(serializers.Serializer):
+class AudioSerializer(serializers.ModelSerializer):
    """
    Audio Serializer
    """
