@@ -1,4 +1,5 @@
-Aim of the project is to build swiss army knife to perform all kind of media manipulation
+Aim of the project is to build swiss army knife to perform all kind of media manipulation.
+
 Mani is a precious stone of NAAGDEVTA
 
 Some Ideas
