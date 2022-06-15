@@ -1,0 +1,9 @@
+*.mp3
+*.mp4
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.env
+*.sqlite3
