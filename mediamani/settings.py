@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # custome app
+    'core'
+
     # celery result
     'django_celery_results',
 
