@@ -15,6 +15,22 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mediamani.settings')
 app = Celery('mediamani'
             )
 
+# app.control.revoke(
+#     [
+#     'd5551335-ac1e-4823-94fd-aa8a20ab3d20',
+#     '752e685f-a1ef-4a87-9a4e-96b693f2f622',
+#     'db5fc5ae-1c5b-4394-a81e-353cca216ac7',
+#     ]
+# )
+
+# lst = [
+#     'd5551335-ac1e-4823-94fd-aa8a20ab3d20',
+#     '752e685f-a1ef-4a87-9a4e-96b693f2f622',
+#     'db5fc5ae-1c5b-4394-a81e-353cca216ac7',
+#     ]
+# for i in lst:
+#     app.control.revoke(i, terminate=True)
+
 # Using a string here means the worker doesn't have to serialize
 # the configuration object to child processes.
 # - namespace='CELERY' means all celery-related configuration keys
