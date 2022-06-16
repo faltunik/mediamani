@@ -7,6 +7,10 @@ VERSION1
 3. We send message that his task has started and will give result after few seconds
 4. Then we send the file 
 
+ToDO
+1. Delete the file after 3 hr of Upload
+
+
 
 
 
