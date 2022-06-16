@@ -28,7 +28,7 @@ class Video_Extract(models.Model):
         return self.video.name
 
 def audio_extract(sender,instance,created,**kwargs):
-    extract_audio.delay(video_id=instance.id, input=instance.audio.path)
+    extract_audio.delay(video_id=instance.id, input=instance.video.path)
 
 
 post_save.connect(audio_extract,sender=Video_Extract,dispatch_uid=uuid.uuid4)
