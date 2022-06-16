@@ -18,7 +18,7 @@ def audio_speed(request):
     return Response(serializer.errors, status=400)
 
 @api_view(['POST'])
-def audio_extract(request):
+def audio_extracter(request):
     serializer =VideoExtractSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
