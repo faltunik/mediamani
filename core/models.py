@@ -22,7 +22,7 @@ post_save.connect(speedup_audio,sender=Audio,dispatch_uid=uuid.uuid4)
 
 class Video_Extract(models.Model):
     video = models.FileField(upload_to='video/')
-    audio_speed = models.FileField(upload_to='audio_extract/', blank=True, null= True)
+    audio_extract = models.FileField(upload_to='audio_extract/', blank=True, null= True)
     
     def __str__(self):
         return self.video.name
